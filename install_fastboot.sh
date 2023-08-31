@@ -14,7 +14,6 @@ fastboot devices
 fastboot flash system_a system.img
 fastboot flash boot boot.img.noverity
 fastboot reboot
-
 # To apply the tunning settings:
 adb root
 adb wait-for-device root
