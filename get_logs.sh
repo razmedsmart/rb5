@@ -4,3 +4,4 @@ adb shell dmesg > kernel.log
 adb logcat > userspace.log
 #about 5 seconds and stop the execution with Ctrl+C.
 #Please send us the files kernel.log and userspace.log
+adb shell dmesg |grep sensor|grep probe
